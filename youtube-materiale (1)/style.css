@@ -1,0 +1,78 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: rgb(246, 241, 241) (0, 0%, 100%);
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+
+
+.sidebar {
+    width: 150px;
+    background-color: rgb(252, 251, 251) (255, 255, 255);
+    padding: 10px;
+    position: fixed;
+    top: 50px;
+    height: 100%;
+}
+
+.sidebar a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: #060606;
+}
+
+.main-content {
+    
+    margin-left: 220px;
+    padding: 20px;
+    padding-top: 70px;
+}
+
+.video-thumbnail {
+    float: left;
+    margin-bottom: 20px;
+    align-items: center;
+    padding:25px;
+}
+
+.video-thumbnail img {
+    
+    width: 200px;
+    height: 110px;
+    margin-right: 10px;
+}
+
+.video-info h3 {
+    margin: 0;
+    font-size: 15px;
+}
+
+.video-info p {
+    margin: 5px 0 0;
+    color: #898181;
+    padding: 1px;
+}
+
+input[type="text"] {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 30%;              /* Larghezza della barra di ricerca */
+
+    
+   
+    
+}
+
+
